@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;;
+}
+h1{
+    font-size: 50px;
+    margin-top: -10px;
+}
+h3{
+    font-size: 35px;
+}
+p{
+    color: dimgray;
+    margin-bottom: 45px;
+}
+header{
+    height: 56px;
+    width: 100%;
+    background-color: #F9F9FE;
+    box-shadow: 0 0 10px 0 #5d5d5d;
+}
+.menu{
+    text-align: center;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #EC4C7A;
+    font-weight: bold;
+    line-height: 2;
+    transition: 1s;
+    font-size: 18px;
+}
+.menu ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+section{
+    height: 500px;
+    padding: 50px 0;
+    margin-top: 5px;
+}
+.top-banner{
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    margin-top: -3em;
+}
+.name-highlight{
+    color: #EC4C7A;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #EC5196, #ED4B72);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #fff;
+}
+.bio{
+    background-image: url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.works h3{
+    text-align: center;
+}
+.works{
+    background-image: url("image/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.demo-works{
+    margin: 10px auto;
+    padding: 50px;
+    margin-left: 40px;
+}
+.demo-works img{
+    width: 30%;
+    margin-left: 20px;
+}
+.bottom-section{
+    background-image: url("image/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.client-review{
+    text-align: center;
+}
+.client-review h3{
+    padding-bottom: 25px;
+}
+.contact{
+    width: 40%;
+    margin: 0 auto;
+    background-image: linear-gradient(45deg, #EC5299,#ED4B6F );
+    text-align: center;
+    padding: 40px 40px;
+    color: white;
+    margin-top: 80px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+.contact h4{
+    font-size: 12px;
+    font-weight: 500;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+footer p{
+    text-align: center;
+}
